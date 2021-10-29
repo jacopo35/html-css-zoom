@@ -28,6 +28,39 @@ header {
     background-color: black;
 }
 
+main {
+    display: flex;
+    height: calc(100% - 35px);
+    margin-top: 35px;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.main-container .avatar {
+    background-image: url(https://picsum.photos/200/150);
+    background-size: contain;
+    height: 150px;
+    width: 200px;
+    margin: 0.3em;
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-container .avatar .avatar-name {
+    color: white;
+    font-weight: 500;
+    background-color: rgba(74, 74, 74, 0.5);
+    padding: 0.5em;
+    font-size: 0.9em;
+}
+
 .flex-header {
     display: flex;
     justify-content: flex-end;
@@ -56,6 +89,18 @@ header .margin-r {
     height: 10px;
     background-color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
