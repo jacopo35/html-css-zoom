@@ -5,7 +5,7 @@
 }
 
 html{
-    font-size: 80%;
+    font-size: 90%;
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
@@ -95,18 +95,6 @@ header .margin-r {
     background-color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     position:fixed;
     bottom: 0;
@@ -114,9 +102,59 @@ footer {
     width: 100%;
     z-index: 999;
     height: 60px;
-    background-color: yellow;
 }
 
 .flex-footer {
     display: flex;
+    justify-content: space-between;
+}
+
+footer .col-l {
+    flex-basis: 15%;
+    display: flex;
+}
+
+.gray div {
+    font-size: 0.8em;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+}
+
+ul li {
+    list-style-type: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+ul li:hover .gray {
+    color: gray;
+}
+
+.gray > i {
+    font-size: 1.5em;
+}
+
+footer .col-m {
+    flex-basis: 50%;  
+    display: flex;
+}
+
+footer .col-r {
+    flex-basis: 10%;
+    background-color: #4a4a4a;
+    display: flex;
+    cursor: pointer;
+}
+
+
+footer .col-r > div {
+    color: red;
+    margin: auto;
+    
 }
