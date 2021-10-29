@@ -46,6 +46,18 @@ header .margin-r {
     margin-right: 0.7em;
 }
 
+.icon-menu {
+    height: 10px;
+    background-color: white;
+    margin-right: 0.5em;
+}
+
+.icon-arrow {
+    height: 10px;
+    background-color: white;
+}
+
+
 footer {
     position:fixed;
     bottom: 0;
